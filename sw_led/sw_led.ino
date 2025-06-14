@@ -4,6 +4,9 @@ bool ledState=false;
 bool prevSwitchState=HIGH;
 void setup()
 {
+
+
+  
   pinMode(LED_PIN,OUTPUT);
   pinMode(SWITCH_PIN,INPUT_PULLUP);
 }
